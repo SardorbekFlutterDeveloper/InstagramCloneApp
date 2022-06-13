@@ -7,10 +7,11 @@ import 'package:instagram_clone/responsive/responsive_layout_screen.dart';
 import 'package:instagram_clone/responsive/web_screen_layout.dart';
 import 'package:instagram_clone/utils/color.dart';
 import 'package:instagram_clone/views/login_screen.dart';
+import 'package:instagram_clone/views/sign_up_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  if (kIsWeb) {
+
     await Firebase.initializeApp(
       options: const FirebaseOptions(
           apiKey: "AIzaSyDxTzUQaMTZ6LKUUnzQ8RMv3qvc-aePv-c",
@@ -20,7 +21,7 @@ void main() async {
           projectId: "instagram-tut-1c0ae",
           storageBucket: "instagram-tut-1c0ae.appspot.com"),
     );
-  } else {}
+
   // await Firebase.initializeApp();
   runApp(MyApp());
 }
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
       //   webScreenLayout: webScreenLayout(),
       //   mobileScreenLayout: MobileScreenLayout(),
       // ),
-       home: LoginScreen(),
+       home: SignUpScreen(),
     );
   }
 }
