@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451326187433",
+    "project_id": "instagram-tut-1c0ae",
+    "storage_bucket": "instagram-tut-1c0ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451326187433:android:a0a5c817756f2c8c8216b8",
+        "android_client_info": {
+          "package_name": "com.sardordev.instagram_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451326187433-pp754c7qlpq4n74hbmmbp7c2ike6a2el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmQNSmoOlg0Wlh91F0BKmEvvn20TyY8HE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451326187433-pp754c7qlpq4n74hbmmbp7c2ike6a2el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
